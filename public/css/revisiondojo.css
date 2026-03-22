@@ -168,7 +168,7 @@ body {
   position: absolute;
   top: -2rem;        
   right: 4rem;
-  left: 12.5rem;
+  left: 11rem;
   width: 0.06rem;
   height: calc(100vh - 3rem); 
   background-color: #6767;
@@ -204,7 +204,6 @@ body {
 .main {
   max-width: 70rem;
   margin: 0 auto 2rem;
-  margin-left: 16rem;
   padding: 0 2rem 0 11rem;   /* leave room for sidebar */
   font-family: 'Inter', sans-serif;
   color: #000;
@@ -419,7 +418,7 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
-  margin-left: var(--sidebar-width, 13rem);
+  margin-left: var(--sidebar-width, 11.5rem);
   padding-bottom: 8rem;         /* replaces padding-bottom: 8rem */
   background-color: #7C86FF;
 }
@@ -529,6 +528,7 @@ p {
 /* ── RESPONSIVE ── */
 @media (max-width: 64rem) {
   .main {
+    margin: auto;
     padding-left: 2rem;
   }
 
@@ -545,6 +545,7 @@ p {
   .main {
     padding: 0 1.25rem;
     margin-top: 0;
+    margin: auto;
   }
 
   h1 {
